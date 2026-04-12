@@ -19,7 +19,7 @@ Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut
 Jawab:
 Berikut adalah hasil modifikasi kode program yang menghasilkan output sesuai dengan yang diminta
 
-![Hasil Modifikasi Kode Program](Pertemuan2.png)
+![Hasil Modifikasi Kode Program](pertemuan2.png)
 
 ## Soal 2
 

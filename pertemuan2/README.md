@@ -50,6 +50,7 @@ Buatlah penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan La
 Jawab:
 
 ## Null Safety
+
 Null Safety adalah fitur Dart yang mencegah variabel memiliki nilai null secara tidak sengaja.
 Secara default, variabel tidak boleh bernilai null kecuali kita menandainya dengan tanda ?.
 
@@ -60,21 +61,15 @@ Tujuan:
 
 ### Tanpa Null Safety
 
-![Hasil](/Pertemuan2/NullSafety/without.png)
-
 Akan error karena variabel nama belum diberi nilai. 
 Lalu untuk mengatasinya kita ada 2 cara yaitu
 
 ### Dengan Nullable Type (?)
 
-![Hasil](/Pertemuan2/NullSafety/with1.png)
-
 Penjelasan:
 String? artinya variabel boleh bernilai null. Program tetap berjalan dan mencetak null.
 
 ### Dengan Non-Nullable
-
-![Hasil](/Pertemuan2/NullSafety/with2.png)
 
 Aman karena sudah diberi nilai awal.
 
@@ -88,13 +83,9 @@ Biasanya digunakan:
 
 ### Dengan Late Variable
 
-![Hasil](/Pertemuan2/LateVariable/LateVar.png)
-
 Tidak error karena variabel diisi sebelum digunakan.
 
 ### Dengan Late Variable yang salah
-
-![Hasil](/Pertemuan2/LateVariable/!LateVar.png)
 
 Karena variabel belum diberi nilai saat dipanggil.
 
